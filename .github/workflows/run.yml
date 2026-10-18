@@ -1,0 +1,41 @@
+name: publish catalog
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  push:
+    branches: [main]
+    paths: [catalog.yaml, src/**]
+  workflow_dispatch:
+
+concurrency:
+  group: agent-repo-catalog
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - name: Inspect repositories
+        run: node dist/entrypoint.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # optional: token of the bot account, used to fill bot_has_write
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Commit repositories.json
+        run: |
+          git config user.name "techdebt-bot"
+          git config user.email "techdebt-bot@users.noreply.github.com"
+          git add repositories.json
+          git diff --cached --quiet && echo "no change" || git commit -s -m "chore: refresh repositories.json" && git push

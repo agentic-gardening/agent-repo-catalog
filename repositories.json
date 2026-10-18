@@ -1,0 +1,12 @@
+[
+  {
+    "owner": "agentic-gardening",
+    "name": "techdebt-common",
+    "default_branch": "main",
+    "head": "a157578dc8f7fcab40f03a489ab46eb74efcedc1",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  }
+]
