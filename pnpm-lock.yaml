@@ -180,7 +180,7 @@ importers:
         version: 7.8.5
       techdebt-common:
         specifier: github:agentic-gardening/techdebt-common#main
-        version: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1
+        version: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/db8764c107ac1c535c05c2e2a15e7cee41853762
       yaml:
         specifier: ^2.9.1
         version: 2.9.1
@@ -2039,8 +2039,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1:
-    resolution: {gitHosted: true, integrity: sha512-avzi0iBCcDXDTdHh0ynaBqZPvwXXcpZoWqwqOWoyHNtwwaDu5SyPDi89uSYTyXSIAbY2xotcVxgXfKMURrzFNQ==, tarball: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1}
+  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/db8764c107ac1c535c05c2e2a15e7cee41853762:
+    resolution: {gitHosted: true, integrity: sha512-vGvzibVhdnXht4qGxU8/jVEGV4Of0du/Vhu9I5VU0NtSI6b2Km9pK5DEddE+AcH4jHw0s7BkMVSvxgHGBGTO4w==, tarball: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/db8764c107ac1c535c05c2e2a15e7cee41853762}
     version: 0.1.0
     engines: {node: '>=24'}
 
@@ -4183,7 +4183,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1:
+  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/db8764c107ac1c535c05c2e2a15e7cee41853762:
     dependencies:
       '@octokit/rest': 22.0.1
       inversify: 8.2.3(reflect-metadata@0.2.2)
