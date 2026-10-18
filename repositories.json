@@ -1,9 +1,69 @@
 [
   {
     "owner": "agentic-gardening",
+    "name": "agent-dep-detector",
+    "default_branch": "main",
+    "head": "ac650e2132ebb95fc78ef8eee666ec3b5740bfc7",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
+    "name": "agent-fixer",
+    "default_branch": "main",
+    "head": "61c4e8bec2f052d86dd54ff73cf71d4e3396010c",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
+    "name": "agent-pr-monitor",
+    "default_branch": "main",
+    "head": "595f20255011d8d7072870887d9fd420ea1d02ca",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
+    "name": "agent-repo-catalog",
+    "default_branch": "main",
+    "head": "913cecd6cf3e16db37b20d93790f802b8daf5324",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
+    "name": "agent-tasks-dispatcher",
+    "default_branch": "main",
+    "head": "0fa5084c12e1c65b534131a94658ffff049dd15f",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
+    "name": "agent-triage",
+    "default_branch": "main",
+    "head": "f274b53a4c9a8cf6d12c02d0089d2a85ab24aa20",
+    "package_json_paths": [
+      "package.json"
+    ],
+    "bot_has_write": false
+  },
+  {
+    "owner": "agentic-gardening",
     "name": "techdebt-common",
     "default_branch": "main",
-    "head": "a157578dc8f7fcab40f03a489ab46eb74efcedc1",
+    "head": "4badb5d06f4e88b41b13d8d917e235a1bd4b5bd6",
     "package_json_paths": [
       "package.json"
     ],
