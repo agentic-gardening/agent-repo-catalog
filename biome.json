@@ -1,6 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
-  "files": { "includes": ["**", "!**/dist/**", "!**/coverage/**", "!**/node_modules/**", "!pnpm-lock.yaml"] },
+  "files": {
+    "includes": ["**", "!**/dist/**", "!**/coverage/**", "!**/node_modules/**", "!pnpm-lock.yaml", "!repositories.json"]
+  },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
