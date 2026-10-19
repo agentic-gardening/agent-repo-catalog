@@ -31,8 +31,8 @@ jobs:
         run: node dist/entrypoint.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # optional: token of the bot account, used to fill bot_has_write
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          # token of the bot account (org secret), used to fill bot_has_write
+          BOT_TOKEN: ${{ secrets.TECHDEBTY_TOKEN }}
       - name: Commit repositories.json
         run: |
           git config user.name "techdebt-bot"
