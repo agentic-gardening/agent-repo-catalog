@@ -3,7 +3,7 @@
     "owner": "agentic-gardening",
     "name": "agent-dep-detector",
     "default_branch": "main",
-    "head": "ac650e2132ebb95fc78ef8eee666ec3b5740bfc7",
+    "head": "d459304466d14b8f72b889654aa3185237ed4fbb",
     "package_json_paths": [
       "package.json"
     ],
@@ -13,7 +13,7 @@
     "owner": "agentic-gardening",
     "name": "agent-fixer",
     "default_branch": "main",
-    "head": "61c4e8bec2f052d86dd54ff73cf71d4e3396010c",
+    "head": "13fa09c08e3d89e06c33bffc9376573773838172",
     "package_json_paths": [
       "package.json"
     ],
@@ -23,7 +23,7 @@
     "owner": "agentic-gardening",
     "name": "agent-pr-monitor",
     "default_branch": "main",
-    "head": "595f20255011d8d7072870887d9fd420ea1d02ca",
+    "head": "3e9d2c026945b5ff3502efd149cb3c98558d71ed",
     "package_json_paths": [
       "package.json"
     ],
@@ -33,7 +33,7 @@
     "owner": "agentic-gardening",
     "name": "agent-repo-catalog",
     "default_branch": "main",
-    "head": "913cecd6cf3e16db37b20d93790f802b8daf5324",
+    "head": "f49cec0ae6a3b5cda2a79813f4d96a215da2c5cb",
     "package_json_paths": [
       "package.json"
     ],
@@ -43,7 +43,7 @@
     "owner": "agentic-gardening",
     "name": "agent-tasks-dispatcher",
     "default_branch": "main",
-    "head": "0fa5084c12e1c65b534131a94658ffff049dd15f",
+    "head": "e3d82225291f39565c1ac618efc693c9894b7342",
     "package_json_paths": [
       "package.json"
     ],
@@ -53,7 +53,7 @@
     "owner": "agentic-gardening",
     "name": "agent-triage",
     "default_branch": "main",
-    "head": "f274b53a4c9a8cf6d12c02d0089d2a85ab24aa20",
+    "head": "8ea59cdbc23c4803c4b792f8b740dc8d821c9628",
     "package_json_paths": [
       "package.json"
     ],
@@ -63,7 +63,7 @@
     "owner": "agentic-gardening",
     "name": "techdebt-common",
     "default_branch": "main",
-    "head": "4badb5d06f4e88b41b13d8d917e235a1bd4b5bd6",
+    "head": "9452d7e8f07a2d0634e6dd31f7b90d3b21012a2c",
     "package_json_paths": [
       "package.json"
     ],
