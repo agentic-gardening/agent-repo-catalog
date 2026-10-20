@@ -13,11 +13,11 @@
     "owner": "agentic-gardening",
     "name": "agent-fixer",
     "default_branch": "main",
-    "head": "27c3a0ee6f27da51855174a364c76df96b09bc07",
+    "head": "c32241d91a0a2b21e00b30f54436e203cf078dce",
     "package_json_paths": [
       "package.json"
     ],
-    "bot_has_write": false
+    "bot_has_write": true
   },
   {
     "owner": "agentic-gardening",
@@ -33,7 +33,7 @@
     "owner": "agentic-gardening",
     "name": "agent-repo-catalog",
     "default_branch": "main",
-    "head": "f89cb8a2810b4387ce01f26539873dcca167a9a9",
+    "head": "6aa0e57bce17f7ae6570dc66cc1c10ba0e8e4dd5",
     "package_json_paths": [
       "package.json"
     ],
@@ -43,7 +43,7 @@
     "owner": "agentic-gardening",
     "name": "agent-tasks-dispatcher",
     "default_branch": "main",
-    "head": "80e86e71abc284bcbea923b9066f558b6caf7642",
+    "head": "d636f4bf50e1fa40fefb78e5abcb81d5d6adca7f",
     "package_json_paths": [
       "package.json"
     ],
@@ -57,7 +57,7 @@
     "package_json_paths": [
       "package.json"
     ],
-    "bot_has_write": false
+    "bot_has_write": true
   },
   {
     "owner": "agentic-gardening",
@@ -73,7 +73,7 @@
     "owner": "agentic-gardening",
     "name": "techdebt-common",
     "default_branch": "main",
-    "head": "9452d7e8f07a2d0634e6dd31f7b90d3b21012a2c",
+    "head": "e11f53ee69f92e63d93e34fee2f1f1afb4d2c9b8",
     "package_json_paths": [
       "package.json"
     ],
