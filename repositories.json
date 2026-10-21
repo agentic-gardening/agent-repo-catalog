@@ -33,7 +33,7 @@
     "owner": "agentic-gardening",
     "name": "agent-repo-catalog",
     "default_branch": "main",
-    "head": "6aa0e57bce17f7ae6570dc66cc1c10ba0e8e4dd5",
+    "head": "4b425ff45b8f32343bf08312bc25764407f99b3f",
     "package_json_paths": [
       "package.json"
     ],
