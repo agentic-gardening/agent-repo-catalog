@@ -28,7 +28,6 @@ agents. Every other agent reads that file instead of listing organisations itsel
 | name | required | purpose |
 |---|---|---|
 | `GITHUB_TOKEN` | automatic | push `repositories.json` |
-| `TECHDEBTY_TOKEN` | org secret | classic PAT of `podman-desktop-bot` (`repo`, `workflow`); fills `bot_has_write` |
 
 ## Local run
 

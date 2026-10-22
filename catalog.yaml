@@ -3,13 +3,7 @@
 # non-archived repository of the organisation whose name matches.
 repositories:
   # dogfooding: the agents themselves
-  - agentic-gardening/techdebt-common
-  - agentic-gardening/agent-repo-catalog
-  - agentic-gardening/agent-dep-detector
-  - agentic-gardening/agent-tasks-dispatcher
-  - agentic-gardening/agent-triage
-  - agentic-gardening/agent-fixer
-  - agentic-gardening/agent-pr-monitor
+  - agentic-gardening/agentic-tasks
   - agentic-gardening/demo-repository
 
   # next candidates

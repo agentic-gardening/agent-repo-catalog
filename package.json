@@ -19,7 +19,7 @@
     "inversify": "^8.2.3",
     "reflect-metadata": "^0.2.2",
     "semver": "^7.8.5",
-    "techdebt-common": "github:agentic-gardening/techdebt-common#main",
+    "techdebt-common": "github:agentic-gardening/agentic-tasks#main&path:/packages/techdebt-common",
     "yaml": "^2.9.1"
   },
   "devDependencies": {

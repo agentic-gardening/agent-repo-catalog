@@ -179,8 +179,8 @@ importers:
         specifier: ^7.8.5
         version: 7.8.5
       techdebt-common:
-        specifier: github:agentic-gardening/techdebt-common#main
-        version: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1
+        specifier: github:agentic-gardening/agentic-tasks#main&path:/packages/techdebt-common
+        version: https://codeload.github.com/agentic-gardening/agentic-tasks/tar.gz/42438addf42c815a17a0b180458f66e7bc05c8d2#path:/packages/techdebt-common
       yaml:
         specifier: ^2.9.1
         version: 2.9.1
@@ -2039,8 +2039,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1:
-    resolution: {gitHosted: true, integrity: sha512-avzi0iBCcDXDTdHh0ynaBqZPvwXXcpZoWqwqOWoyHNtwwaDu5SyPDi89uSYTyXSIAbY2xotcVxgXfKMURrzFNQ==, tarball: https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1}
+  techdebt-common@https://codeload.github.com/agentic-gardening/agentic-tasks/tar.gz/42438addf42c815a17a0b180458f66e7bc05c8d2#path:/packages/techdebt-common:
+    resolution: {gitHosted: true, integrity: sha512-3pWNN+zw9QJocv9drNuqNzpB90JQaS4kffYcvig/8OASx3a1dy85RzYLzJgYkfjxoMFOEG+eku+Wo5y7Lv+kOg==, path: /packages/techdebt-common, tarball: https://codeload.github.com/agentic-gardening/agentic-tasks/tar.gz/42438addf42c815a17a0b180458f66e7bc05c8d2}
     version: 0.1.0
     engines: {node: '>=24'}
 
@@ -4183,7 +4183,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  techdebt-common@https://codeload.github.com/agentic-gardening/techdebt-common/tar.gz/a157578dc8f7fcab40f03a489ab46eb74efcedc1:
+  techdebt-common@https://codeload.github.com/agentic-gardening/agentic-tasks/tar.gz/42438addf42c815a17a0b180458f66e7bc05c8d2#path:/packages/techdebt-common:
     dependencies:
       '@octokit/rest': 22.0.1
       inversify: 8.2.3(reflect-metadata@0.2.2)
