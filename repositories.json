@@ -3,13 +3,12 @@
     "owner": "agentic-gardening",
     "name": "agentic-tasks",
     "default_branch": "main",
-    "head": "42438addf42c815a17a0b180458f66e7bc05c8d2",
+    "head": "e6cab70312579fc059cc77744104905b78410431",
     "package_json_paths": [
       "package.json",
       "packages/agent-dep-detector/package.json",
       "packages/agent-fixer/package.json",
       "packages/agent-pr-monitor/package.json",
-      "packages/agent-repo-catalog/package.json",
       "packages/agent-tasks-dispatcher/package.json",
       "packages/agent-triage/package.json",
       "packages/techdebt-common/package.json"
